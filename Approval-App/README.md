@@ -17,6 +17,8 @@ Download the zipped Initiative Approval solution file from this repo folder. Fin
 
 When you get to the Connection References step, select any existing connection in your tenant. If you don't have an existing connection, click to create a new connection.
 
+![Connection Reference in Import Solution](files/images/import-connectionref.jpg)
+
 ## Environment Variable
 
 From within your solution file, select "Add Existing" -> "Table".
