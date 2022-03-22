@@ -30,7 +30,7 @@ Click to open the "Initiative Approval Solution" > Choices in left navigation > 
 
 ![Pending Approval Status](files/images/pending-approval-status.jpg)
 
-Copy the number inside of the Value text field (e.g., 760660001 in my example) and hang on to it, since you will need to reference it later.
+Copy the number inside of the Value text field (e.g., 760660001 using example below) and hang on to this value, since you will need to reference it later.
 
 ![Pending Approval Status ID](files/images/pending-approval-status-id.jpg)
 
