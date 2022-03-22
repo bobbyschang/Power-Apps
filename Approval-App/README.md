@@ -18,7 +18,7 @@ Download the zipped Initiative Approval solution file from this repo folder. Fin
 
 When you get to the Connection References step, select any existing connection in your tenant. If you don't have an existing connection, click to create a new connection.
 
-![Connection Reference in Import Solution](files/images/import-connectionref.jpg)
+   ![Connection Reference in Import Solution](files/images/import-connectionref.jpg)
 
 ## Locate Publisher's Prefix for your solution
 
@@ -28,12 +28,22 @@ After your solution has successfully been imported, [find the Publisher Prefix o
 
 Click to open the "Initiative Approval Solution" > Choices in left navigation > "Approval Status" choice > Pending
 
-![Pending Approval Status](files/images/pending-approval-status.jpg)
+   ![Pending Approval Status](files/images/pending-approval-status.jpg)
 
-Copy the number inside of the Value text field (e.g., 760660001 using example below) and hang on to this value, since you will need to reference it later.
+Copy the number in the Value text field and remove the periods (e.g., 760660001 using example below) and hang on to this value, since you will need to reference it later.
 
-![Pending Approval Status ID](files/images/pending-approval-status-id.jpg)
+   ![Pending Approval Status ID](files/images/pending-approval-status-id.jpg)
 
 Click Cancel to go back to your solution.
 
 ## Update Environment Variables
+
+Click Environment Variables in left navigation pane of the solution.  Then update the following environment variables:
+
+1. "Env Var Pending Approval" variable
+   Click Env Var Pending Approval > set the Current Value to the ID that you have copied from the "Find the ID for Pending Approval Status" step above
+   ![Environment Variable for Pending Approval](files/images/env-variable-pending-approval.jpg)
+   
+2. "Env Var Pub Name" variable
+   Click Env Var Pub Name > set the Current Value to the ID that you have copied from the "Find the ID for Pending Approval Status" step above
+   ![Environment Variable for Publisher Name](files/images/env-variable-pending-approval.jpg)
