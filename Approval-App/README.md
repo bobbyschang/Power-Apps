@@ -11,6 +11,7 @@ This sample solution provides you with a framework to create an approval request
     * Locate Publisher's Prefix for your solution
     * Find the ID for Pending Approval Status
     * Update Environment Variables
+    * Add Approvers in MDA App Settings
 
 ## Import the solution to your Power Platform environment
 
@@ -42,8 +43,22 @@ Click Environment Variables in left navigation pane of the solution.  Then updat
 
 1. "Env Var Pending Approval" variable
    Click Env Var Pending Approval > set the Current Value to the ID that you have copied from the "Find the ID for Pending Approval Status" step above
+   
    ![Environment Variable for Pending Approval](files/images/env-variable-pending-approval.jpg)
    
 2. "Env Var Pub Name" variable
    Click Env Var Pub Name > set the Current Value to the ID that you have copied from the "Find the ID for Pending Approval Status" step above
+   
    ![Environment Variable for Publisher Name](files/images/env-variable-pending-approval.jpg)
+
+## Add Approvers in MDA App Settings
+
+This solution will look through the approvers to .  Click Apps in left navigation pane of the solution. First, publish the Initiative Request MDA App.
+
+![Publish MDA app](files/images/publish-MDA-app.jpg)
+
+Once published, play the Initiative Request MDA App.  Click on Initiatives in bottom left navigation pane of the app > then click on Settings
+
+![MDA app settings](files/images/MDA-settings.jpg)
+
+Click + New and add Round 1 and a main approver
