@@ -27,7 +27,7 @@ This sample solution provides you with a framework to create an approval request
 
 ## Import the solution to your Power Platform environment
 
-Download the zipped Initiative Approval solution file from this repo folder. Find the right environment in the [Power Apps maker portal](https://make.powerapps.com/) within your tenant. Then [import the solution into your environment](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/import-update-export-solutions).
+Download the [zipped Initiative Approval solution file from the files folder in this repo](files/InitiativeApprovalSolution.zip). Find the right environment in the [Power Apps maker portal](https://make.powerapps.com/) within your tenant. Then [import the solution into your environment](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/import-update-export-solutions).
 
 When you get to the Connection References step, select any existing connection in your tenant. If you don't have an existing connection, click to create a new connection.
 
