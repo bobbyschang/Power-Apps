@@ -7,14 +7,17 @@ This sample shows you how to create a simple approval app with Power Apps
    
 ## Solution Steps Overview
 
-    * Test 1
-    * Test 2 
+    * Import the solution to your Power Platform environment
+    * Environment Variable
+    * Enter approver
 
-## Test 1
+## Import the solution to your Power Platform environment
 
-From the [Power Apps maker portal](https://make.powerapps.com/), [create a new solution file](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/create-solution) in your environment.
+Download the zipped Initiative Approval solution file from this repo folder. Find the right environment in the [Power Apps maker portal](https://make.powerapps.com/) within your tenant. Then [import the solution into your environment](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/import-update-export-solutions).
 
-## Test 2
+When you get to the Connection References step, select any existing connection in your tenant. If you don't have an existing connection, click to create a new connection.
+
+## Environment Variable
 
 From within your solution file, select "Add Existing" -> "Table".
 
